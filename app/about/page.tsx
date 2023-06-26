@@ -1,3 +1,8 @@
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "About | Next App",
+};
+
 export default function about() {
-  return <h1>about Go</h1>;
+  return <h3>Select sustains</h3>;
 }
